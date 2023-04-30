@@ -61,15 +61,18 @@ form .boton{
 
 form .boton:hover{
     transform: scale(1.1);
-    background: #00c6b3;
+    background: #132b3c;
 }
 
-form input[type="button"]{
+form input[type="button"], [type="reset"]{
     display: inline-flex;
     background: transparent;
     border: none;
     color: var(--white);
 }
 
+input .boton input[type="reset"]{
+
+}
 
 
