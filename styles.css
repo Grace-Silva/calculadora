@@ -53,7 +53,15 @@ form .boton{
     display: flex;
     gap: 8px;
     background: #005467;
-    padding: 6px 12px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+form .boton:hover{
+    transform: scale(1.1);
+    background: #00c6b3;
 }
 
 form input[type="button"]{
