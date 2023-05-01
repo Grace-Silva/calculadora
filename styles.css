@@ -76,4 +76,10 @@ form input[type="button"], [type="reset"]{
 }
 
 
+form .clear{
+    background: #3b4f76;
+}
 
+form .clear:hover{
+    background: #3a4856;
+}
